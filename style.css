@@ -1,0 +1,22 @@
+body  {
+    background-color: #35353d;
+    ;
+}
+nav {
+    background-color: #9bbbd9;
+ 
+}
+
+.h1 {
+    color: #ff69c3;
+    font-size: 30px;
+    text-shadow:  2px 2px 0   #35353d,
+    4px 4px 0 #71b1ec
+}
+
+
+
+#coverthing {
+        background-color: white;
+    height: 100%;
+}
