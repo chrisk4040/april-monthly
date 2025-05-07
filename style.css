@@ -64,17 +64,17 @@ nav, #nav {
 }
 
 
-:root{
-    --bg-color-1: #ff69c3;
+button:root{
+    --bg-color-1:#35353d;
     --bg-color-2: #71b1ec;
-    --bg-color-3: #35353d;
+    --bg-color-3:  #ff69c3;
     --padding: 1rem 4rem;
     --font-family: monospace;
     --step: 0.5rem;
     }
     
     /* transform: translate3d(-0.5rem, -0.5rem, 0) */
-    button:is(:hover, :focus-visible) {
+    button:is(button:hover, button:focus-visible) {
     --active: 1;
     }
     
