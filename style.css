@@ -107,12 +107,12 @@ button:root{
     place-items: center;
     transition: 0.2s ease;
     border: 2px solid black;
-    /* transform:
+    /* transform:button
     translate(
     calc((var(--active) * var(--coefficient, 0)) * (var(--step) * -1)),
     calc((var(--active) * var(--coefficient, 0)) * (var(--step) * -1))
     ); */
-    translate:
+    translate:button
     calc((var(--active) * var(--coefficient, 0)) * (var(--step) * -1))
     calc((var(--active) * var(--coefficient, 0)) * (var(--step) * -1))
     ;
